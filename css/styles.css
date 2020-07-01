@@ -1,0 +1,44 @@
+/* цвет заголов текста #212121 */
+/* основной цвет текста белый #FFFFFF  */
+/* цвет основного текста #757575 */
+/* акцент #2196F3*/
+/* цвет логотипа #000000 */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --primary-white-color: #ffffff;
+    --accent-color: #2196F3;
+    --logo-color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/* Логотип */
+
+.logo {
+    color: var(--logo-color);
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+/* Навигация */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
